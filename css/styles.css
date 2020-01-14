@@ -1,3 +1,18 @@
+.img-hidden {
+  
+}
+.img-show {
+  display: none; 
+}
 img {
-  display: none;
+  width: 100%;
+  float:left;
+  padding: 20px;
+  margin: 20px;
+  border-style: dotted;
+  border-width: 5px;
+  border-color: #A0B03E;
+}
+body {
+  background-color: #A1CE72;
 }
