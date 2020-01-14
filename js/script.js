@@ -4,3 +4,10 @@ $(document).ready(function() {
     $("#initially-hidden").toggle();
   });
 });
+
+$(document).ready(function() {
+  $("#clickable-list").click(function() {
+    $("#showing-list").toggle();
+    $("#hiddden-list").toggle();
+  });
+});

@@ -22,3 +22,15 @@ body {
 .clickable:hover {
   text-decoration: underline;
 }
+
+#showing-list {
+  display: none;
+}
+
+#clickable-list {
+  cursor: pointer;
+  color: #4A9212;
+}
+#clickable-list:hover {
+  text-decoration: underline;
+}
