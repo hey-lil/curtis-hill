@@ -1,7 +1,4 @@
-.img-hidden {
-  
-}
-.img-show {
+#initially-showing {
   display: none; 
 }
 img {
@@ -15,4 +12,13 @@ img {
 }
 body {
   background-color: #A1CE72;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #4A9212;
+}
+
+.clickable:hover {
+  text-decoration: underline;
 }
