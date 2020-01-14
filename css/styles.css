@@ -1,8 +1,8 @@
 #initially-showing {
   display: none; 
 }
-img {
-  width: 100%;
+#hidden-img {
+  width: 500px;
   float:left;
   padding: 20px;
   margin: 20px;
@@ -33,4 +33,36 @@ body {
 }
 #clickable-list:hover {
   text-decoration: underline;
+}
+
+#slide-info-showing {
+  display: none;
+}
+
+.clickable-img {
+  cursor: pointer;
+}
+.clickable-img:hover {
+  border: 20px solid green;
+}
+/* .slide-img {
+  width: 300px;
+  height: auto;
+} */
+
+#small-img {
+  width: 300px;
+  height: auto;
+}
+
+.less-green-background {
+  background-color: #A4B296;
+}
+
+.yellow-green-background {
+  background-color: #B3CF2E;
+}
+
+.dark-green-background {
+  background-color: #5C6D33;
 }
