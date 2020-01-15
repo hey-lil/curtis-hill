@@ -13,6 +13,17 @@
 body {
   background-color: #A1CE72;
 }
+/* 
+image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+} */
+
+h1, h2, h3 {
+text-align: center;
+}
 
 .clickable {
   cursor: pointer;
@@ -41,10 +52,13 @@ body {
 
 .clickable-img {
   cursor: pointer;
+  display: flex;
+  justify-content: center;
 }
 .clickable-img:hover {
   border: 20px solid green;
 }
+
 /* .slide-img {
   width: 300px;
   height: auto;
